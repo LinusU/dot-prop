@@ -72,7 +72,7 @@ module.exports.set = (obj, path, value) => {
 	}
 };
 
-module.exports.delete = (obj, path) => {
+module.exports.del = (obj, path) => {
 	if (!isObj(obj) || typeof path !== 'string') {
 		return;
 	}
